@@ -1,0 +1,106 @@
+body {
+    background: rgb(17, 2, 17);
+}
+
+#container {
+    background: white;
+    margin-top: 100px;
+    margin-left: 370px;
+    width: 50%;
+    height: 70%;
+    border-radius:5px;  
+    padding-top: 30px;
+    display: none;
+}
+
+input {
+    font-size: 20px;
+}
+
+.discription{
+    text-align: center;
+}
+
+h1 {
+    color:rgb(17, 2, 17);
+}
+
+p {
+    font-size: 20px;
+    margin-left: -187px;
+}
+
+#result, #faild {
+    text-align: center;
+}
+
+#container2 {
+    background: white;
+    margin-top: 100px;
+    margin-left: 370px;
+    width: 50%;
+    height: 50%;
+    border-radius:5px;  
+    padding-top: 30px;
+    display: block;
+}
+#container3 button {
+    width:200px;
+    margin-left:-30px;
+}
+
+.user-input {
+    margin-top:-100px;
+}
+
+#container3 {
+    background: white;
+    margin-top: 100px;
+    margin-left: 370px;
+    width: 50%;
+    height: 50%;
+    border-radius:5px;  
+    padding-top: 30px;
+    display: none;
+}
+
+.middle-div {
+    margin-left: 200px;
+    margin-top:20px;
+}
+
+.label {
+    margin-left: 30px;
+}
+
+#numOfChances {
+    width: 80px;
+    height: 30px;   
+}
+
+.user-input input {
+    margin-top:130px;
+    margin-left:10px;
+    height: 40px;
+    width: 200px;
+}
+
+.send-button {
+    margin-left:20px;
+    height: 40px;
+}
+
+button {
+    height: 50px;
+    width:100px;
+    background:rgb(17, 2, 17);
+    border-style: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color:white;
+}
+
+.restart-button {
+    margin-left: 80px;
+    margin-top:60px;
+}

@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Guessing Game</title>
+        <link rel="stylesheet" href="guessing-game.css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="middle-div">
+                <h1>Guessing Game</h1>
+                <p class="discription">Guess a number between 0 and 100</p>
+                <label class="label">Number of chances</label>
+                <input id="numOfChances">
+                <p id="result"></p>
+                <div class="user-input">
+                    <input id="userInput" type="number" onkeyup="enterKey()" onclick="clare()" placeholder="Guess a number">
+                    <button class="send-button" onclick="guess()">Send</button>
+                </div>
+                <div class="restart-button">
+                    <button onclick="restart()">Restart</button>
+                </div>
+            </div>
+        </div>
+        <div id="container2">
+            <div class="middle-div">
+                <h1>Guessing Game</h1>
+                <p>You have Ten(10) chances to guess the random number that will be generated between 0 and 100 every time you play,
+                    after the Ten(10) chances the game will end and you will see your result.
+                </p>
+                <div class="restart-button">
+                    <button onclick="playNow()">Play Now</button>
+                </div>
+            </div>
+        </div>
+        <div id="container3">
+            <div class="middle-div">
+                <h1>Game  Over!!!</h1>
+                <p id="faild"></p>
+                <div class="restart-button">
+                    <button onclick="playAgain()">Play Again</button>
+                </div>
+            </div>
+        </div>
+        <script src="guessing-game.js"></script>
+    </body>
+</html>
